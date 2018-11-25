@@ -31,6 +31,6 @@
 	git commit -m "your commit message”
 
 ### 이미 커밋된 파일 무시
-$ git rm --cached log.txt
-$ git commit -m 'untrack log.txt'
+	git rm --cached log.txt
+	git commit -m 'untrack log.txt'
 
