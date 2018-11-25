@@ -1,7 +1,7 @@
-github 사용시 발생한 에러들
+#github 사용시 발생한 에러들
 
-1. 기본 명령어
-# Start
+##1. 기본 명령어
+### Start
 	git init
 	git add *
 	git commit -m "init"
@@ -14,9 +14,9 @@ github 사용시 발생한 에러들
 	git push origin < 가지 이름 >
 
 
-2. .gitignore
+##2. .gitignore
 
-# 기본 명령어
+### 기본 명령어
 	*.a       # no .a files
 	!lib.a    # but do track lib.a, even though you're ignoring .a files above
 	/TODO     # only ignore the root TODO file, not subdir/TODO
@@ -25,12 +25,12 @@ github 사용시 발생한 에러들
 
 
 출처: http://emflant.tistory.com/127 [SourceBox]
-# 변경사항이 반영 안될때
+### 변경사항이 반영 안될때
 	git rm -r --cached .
 	git add .
 	git commit -m "your commit message”
 
-# 이미 커밋된 파일 무시
+### 이미 커밋된 파일 무시
 $ git rm --cached log.txt
 $ git commit -m 'untrack log.txt'
 
