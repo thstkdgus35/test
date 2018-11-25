@@ -1,6 +1,6 @@
-#github 사용시 발생한 에러들
+# github 사용시 발생한 에러들
 
-##1. 기본 명령어
+## 1. 기본 명령어
 ### Start
 	git init
 	git add *
@@ -14,7 +14,7 @@
 	git push origin < 가지 이름 >
 
 
-##2. .gitignore
+## 2. .gitignore
 
 ### 기본 명령어
 	*.a       # no .a files
