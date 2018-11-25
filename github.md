@@ -1,17 +1,17 @@
 github 사용시 발생한 에러들
 
+1. 기본 명령어
 # Start
+	git init
+	git add *
+	git commit -m "init"
+	git push origin master
+	git remote add orignin < 원격 서버 주소 >
 
-git init
-git add *
-git commit -m "init"
-git push origin master
-git remote add orignin < 원격 서버 주소 >
-
-git checkout -b feature_x (생성)
-git checkout master (master로 이동)
-git branch -d feature_x (삭제)
-git push origin < 가지 이름 >
+	git checkout -b feature_x (생성)
+	git checkout master (master로 이동)
+	git branch -d feature_x (삭제)
+	git push origin < 가지 이름 >
 
 
 2. .gitignore
