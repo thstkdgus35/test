@@ -12,6 +12,8 @@
 	git checkout master (master로 이동)
 	git branch -d feature_x (삭제)
 	git push origin < 가지 이름 >
+	
+	# Master 가지에 push가 안될 때?
 
 
 ## 2. .gitignore
