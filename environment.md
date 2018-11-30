@@ -5,3 +5,10 @@
 ## wget을 sh에 썼을때 오류
 
 ## sh를 통해 폴더를 만들었을 때 baseline^M과 같이 만들어지는 현상(이상한 폴더)
+
+
+## 유저가 바뀌었을때 권한 넘기기
+
+sudo chown -R $USER ~/.blabla
+
+sudo chown -R baek:baek FrameInt/
