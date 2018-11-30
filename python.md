@@ -9,6 +9,8 @@
 ### argparser의 string과 직접 입력한 string이 다른 문제
   a.find('b') > -1 이면 a안에 b
 
+### memory increase (training)
+with torch.no_grad(): 부분을 psnr 등 계산하는 부분 
 #### 주의
 HR = HR.detach()로 하면 해결 
 # 2. numpy
